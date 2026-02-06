@@ -1,0 +1,4 @@
+tracy.tracy filter=lfs diff=lfs merge=lfs -text
+tracy.tracy.part.00 filter=lfs diff=lfs merge=lfs -text
+tracy.tracy.part.01 filter=lfs diff=lfs merge=lfs -text
+tracy.tracy.part.02 filter=lfs diff=lfs merge=lfs -text

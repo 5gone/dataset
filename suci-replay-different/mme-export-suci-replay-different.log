@@ -1,0 +1,2086 @@
+# ltemme version 2025-09-19, gcc 13.2.0, glibc 2.17, Linux x86_64 6.16.5-200.fc42.x86_64
+# Log file format:
+# time layer dir [enb_id|mme_ue_id] message
+# CFG=eJzVWG1v4zYS/iusYiC7gWxLsqXI2kuB3G4PCHC3CHDbT5arUuJIZiORXJJ24nP93w/Ui19iO9m0Ra+XAIZJPhzOPM/MkPAaV3kiOGUaZOQGthlKKChnCSWR64X1jAJthr6d8SrBhMjImkbRLJo4jmPZmUgyynXChY60XIBNMiYTtRCCy3YGsiwRWOJKRevbaLqe8woS9pg8wMoYHjl2NyMkXWINZiWy3HDijB0vw36eTsJJGoyuw9zFo+t8lPtuTlzw/Ynve944Dd00nRAXnAyCyShz/WvvOrM2M/vvx8d516ePS0ehAyQc+TjwnXwygjALRlmQXfskzP1R6OcpJn4YuqNxmOGR52PwcDbBEHgAYzyxNrONDRXIAli2StiiSkEmJVU6mq4zrKHgchU5T25uE1pQrSJr4rrWxj6z6LqeiQCESvxCJbVIj1w+UFZE1iPV84R5gWXnNNcALEkBS5AqynGpwM65zCChBJimepVI+LoA1cpRaNHK6HrXA2fgDlwjJK1U521KGTmAOAOvARxOusZBM73krZejQojmlINpdmIehGpmSl4kOS2B4Qoia6grMawqGJS8sOo1LjTlTEUWLstBCUsobwiki8I24wo/JYr+B276bj0WeFVyTG6a0QOs2m+ZXAnNb1zLZlglGRVzkAkuC54ICXk0ndXzhuRif9qz3ZnNQBvik8bB2wpLqniu0edm3toC1JxL/Rxm2YKwjlmcZaBUU3MtkECOF6W2bMI6fsNB/W/ZIHGqoulaSEigqnlIMixwSkuqV5Gl5rgsE8Z1oiUtCpDJHtKy97ctFyUz5tqdZk+3jNMSDJhyaZKlpjhyfftrRqPJZmbnVCqd0G3WTLyBG4QDr06KZjZRc5rryLNLfAbqjxsi9EpAZFGxHJvUP8FHnegM/g8JGX07IaM3EMI06//FSXEd0wjayDPOclrsC/ltuldqL7rpLjzLcxw3GoeB03xEYRiG1uwvELZ/PhfGJhe6tWVQtxP6FLWxBGE0chwncqPoWzNm3GRMu3jWYp7nuTEqkkxlecflzoi75XPfh9kziZbBGZEUf6tI3YXYPgX+h5q9Jpn/mmTjN0rmvyrZ+HXJ/EPJxi9JNrNFWbHIchzXcS0Tb0JUJpIKC2GeDdO1GUbOkwdN2W7sZzOB4cc8AZWWuKaZMqopLhMJv0CmE5CSS5P/8ik6fie0T4mvXEVrvCCUR+v2nCUl0I68zWZj6wUzD8uFSFQmqdCRRbDGkX3x3TClbKjmMaO5ybmb2Oq5sYXM3wW6Mz0lxxkgsxYzygg8GYjXQtBFdy2jeg29u//0ufn6PmZYMAMedWADv62zHNVZ3lo1rBrceIu7QIZj23wGiEsEel73tpgZP9EUxVbP7IotdIPiWpDYQjP0Aek5MIMyVmhuyDKW/dg6iMbMg1INzAxcgwrM+RfoHyYn0d39McozqOsG9U98AlRh9WAwYR3JBfoXVg+dNxeQzTmKraurK/Sx7tkLSVmB7u6XYyQIQ5c9LNgl4gz11o0YGxv1miCGPWM6trbGEC5L/ohMnhkjP/6gzEaFK0D3nz43oPrAS+cSfY+GQvJsqFZqyEAPDV9Dc28Me81BQ9N7hE4kECoh06ojEE1RP0ex9dp+BYzs7d7XopP+Dd48s1abyOku9o4+QLSTtHO4uQ13DNbfDIObYW9tONyghUD66esCFlACQ67jONuEEfqm9442HU2h/iPyUf/f6FdUSBCof49iK477t+ju8/2PX1Ac9+neQXHc/wXdfvz4w/2X2Hq/R2Bs9ajQbaqepObZiXftAQfmd8aP6Li7XwaIKoTLR7xSCJgxRhDONci6kPbVJKfUDA74f0E+96R8h9uHhCrjQd2E972F8nTtBidqtyy7ut32gwCVlD2gkme4PK5NZ6+Cd4Vebztd7W0d1zdQg2vui2flHjYwc6sco7p6n7yt3oMX6r2O5Xm5v1Q7r5L/u3tF8Dt7RfCH9oqXrR0Vxy0hZ/OGlyQpy5ufqajnkZrzR0RgiVrj6FekgKA+XKrhT4MrykAHKI7fTX9Cs6s4fh/Hw8FVbxjH7vCD/kAufz6s+sZ8bKHvzlf+ccNqTiFQot66sbAZBuNdYC9uw4Sg3rrZ8kKja2gpSp4+p+QVy3V27rfSQ4uSLzSgnEuTcm2lQGdZoH7QInbG3J2xmvju1OctOfjze3LwG5vyyTa3fcEct7pzjaLbcq5Z7L8G7hd6dxfWspwRc1+xT02rqDvSfhf4DU2+M/mFo1RSUoCJEGks9rwyP6IhzHZxZVgSGy1YxqsKmK63ZJwASsH0q233YgRlc8wKQBJEaUz9TcxXipp6brz5HqUrtOILeWh87/DmpVkbpKJpCCYJU+kgo1Lr9TOEAl1npUF1nB4sHvtRYWVu3VQ6J+BdW9kHncmX1p/jbEm7B+3LyXMmZ9CS4k6hXip3KfSCmwZ3FrOlJZWZLpsOWm9oasGyN/8FRoOM5A==
+# Metadata:{"model":"MME","version":"2025-09-19","cells":{},"info":"enb:9000","src":"MME"}
+10:32:15.471 [IMS] -  - Connecting to 127.0.0.1:10042
+10:32:15.480 [IMS] -  - Connect error: Connection refused
+10:32:15.480 [IMS] -  - Closing connection to 127.0.0.1:10042
+10:32:15.480 [RX] -  New connection from 127.0.1.100:34224
+10:32:15.485 [RX] -  New connection from 127.0.1.100:35580
+10:32:15.485 [RX] FROM 127.0.1.100:34224 Capabilities-Exchange-Request
+        0000:  01 00 00 c8 80 00 01 01  00 00 00 00 12 6c 21 65  .............l!e
+        0010:  25 01 d8 64 00 00 01 08  40 00 00 29 65 70 63 2e  %..d....@..)epc.
+        0020:  6d 6e 63 30 30 31 2e 6d  63 63 30 30 31 2e 33 67  mnc001.mcc001.3g
+        0030:  70 70 6e 65 74 77 6f 72  6b 2e 6f 72 67 00 00 00  ppnetwork.org...
+        0040:  00 00 01 28 40 00 00 25  6d 6e 63 30 30 31 2e 6d  ...(@..%mnc001.m
+        0050:  63 63 30 30 31 2e 33 67  70 70 6e 65 74 77 6f 72  cc001.3gppnetwor
+        0060:  6b 2e 6f 72 67 00 00 00  00 00 01 01 40 00 00 0e  k.org.......@...
+        0070:  00 01 7f 00 01 64 00 00  00 00 01 0a 40 00 00 0c  .....d......@...
+        0080:  00 00 28 af 00 00 01 0d  00 00 00 18 4c 54 45 20  ..(.........LTE 
+        0090:  43 6f 72 65 20 4e 65 74  77 6f 72 6b 00 00 01 09  Core Network....
+        00a0:  40 00 00 0c 00 00 28 af  00 00 01 04 40 00 00 20  @.....(.....@.. 
+        00b0:  00 00 01 0a 40 00 00 0c  00 00 28 af 00 00 01 02  ....@.....(.....
+        00c0:  40 00 00 0c 01 00 00 23                           @......#
+        Length = 200
+        Flags = 0x80 [ Request ]
+        Command code = 257 (Capabilities-Exchange)
+        Application-id = 0 (Diameter common message)
+        Hop-by-hop identifier = 309076325
+        End-to-end identifier = 620877924
+        Origin-Host:
+          Code = 264
+          Flags = 0x40 [ Mandatory ]
+          Length = 41
+          Value = epc.mnc001.mcc001.3gppnetwork.org
+        Origin-Realm:
+          Code = 296
+          Flags = 0x40 [ Mandatory ]
+          Length = 37
+          Value = mnc001.mcc001.3gppnetwork.org
+        Host-IP-Address:
+          Code = 257
+          Flags = 0x40 [ Mandatory ]
+          Length = 14
+          Value = 127.0.1.100
+        Vendor-Id:
+          Code = 266
+          Flags = 0x40 [ Mandatory ]
+          Length = 12
+          Value = 10415 (3GPP)
+        Product-Name:
+          Code = 269
+          Flags = 0x00 [ ]
+          Length = 24
+          Value = LTE Core Network
+        Supported-Vendor-Id:
+          Code = 265
+          Flags = 0x40 [ Mandatory ]
+          Length = 12
+          Value = 10415 (3GPP)
+        Vendor-Specific-Application-Id:
+          Code = 260
+          Flags = 0x40 [ Mandatory ]
+          Length = 32
+            Vendor-Id:
+              Code = 266
+              Flags = 0x40 [ Mandatory ]
+              Length = 12
+              Value = 10415 (3GPP)
+            Auth-Application-Id:
+              Code = 258
+              Flags = 0x40 [ Mandatory ]
+              Length = 12
+              Value = 16777251 (3GPP S6a/S6d)
+10:32:15.485 [RX] FROM 127.0.1.100:35580 Capabilities-Exchange-Request
+        0000:  01 00 00 c8 80 00 01 01  00 00 00 00 2f 25 2e 75  ............/%.u
+        0010:  25 01 6a e3 00 00 01 08  40 00 00 29 65 70 63 2e  %.j.....@..)epc.
+        0020:  6d 6e 63 30 30 31 2e 6d  63 63 30 30 31 2e 33 67  mnc001.mcc001.3g
+        0030:  70 70 6e 65 74 77 6f 72  6b 2e 6f 72 67 00 00 00  ppnetwork.org...
+        0040:  00 00 01 28 40 00 00 25  6d 6e 63 30 30 31 2e 6d  ...(@..%mnc001.m
+        0050:  63 63 30 30 31 2e 33 67  70 70 6e 65 74 77 6f 72  cc001.3gppnetwor
+        0060:  6b 2e 6f 72 67 00 00 00  00 00 01 01 40 00 00 0e  k.org.......@...
+        0070:  00 01 7f 00 01 64 00 00  00 00 01 0a 40 00 00 0c  .....d......@...
+        0080:  00 00 28 af 00 00 01 0d  00 00 00 18 4c 54 45 20  ..(.........LTE 
+        0090:  43 6f 72 65 20 4e 65 74  77 6f 72 6b 00 00 01 09  Core Network....
+        00a0:  40 00 00 0c 00 00 28 af  00 00 01 04 40 00 00 20  @.....(.....@.. 
+        00b0:  00 00 01 0a 40 00 00 0c  00 00 28 af 00 00 01 02  ....@.....(.....
+        00c0:  40 00 00 0c 01 00 00 24                           @......$
+        Length = 200
+        Flags = 0x80 [ Request ]
+        Command code = 257 (Capabilities-Exchange)
+        Application-id = 0 (Diameter common message)
+        Hop-by-hop identifier = 790965877
+        End-to-end identifier = 620849891
+        Origin-Host:
+          Code = 264
+          Flags = 0x40 [ Mandatory ]
+          Length = 41
+          Value = epc.mnc001.mcc001.3gppnetwork.org
+        Origin-Realm:
+          Code = 296
+          Flags = 0x40 [ Mandatory ]
+          Length = 37
+          Value = mnc001.mcc001.3gppnetwork.org
+        Host-IP-Address:
+          Code = 257
+          Flags = 0x40 [ Mandatory ]
+          Length = 14
+          Value = 127.0.1.100
+        Vendor-Id:
+          Code = 266
+          Flags = 0x40 [ Mandatory ]
+          Length = 12
+          Value = 10415 (3GPP)
+        Product-Name:
+          Code = 269
+          Flags = 0x00 [ ]
+          Length = 24
+          Value = LTE Core Network
+        Supported-Vendor-Id:
+          Code = 265
+          Flags = 0x40 [ Mandatory ]
+          Length = 12
+          Value = 10415 (3GPP)
+        Vendor-Specific-Application-Id:
+          Code = 260
+          Flags = 0x40 [ Mandatory ]
+          Length = 32
+            Vendor-Id:
+              Code = 266
+              Flags = 0x40 [ Mandatory ]
+              Length = 12
+              Value = 10415 (3GPP)
+            Auth-Application-Id:
+              Code = 258
+              Flags = 0x40 [ Mandatory ]
+              Length = 12
+              Value = 16777252 (3GPP S13/S13')
+10:32:16.434 [RX] -  New connection from 127.0.0.1:59915
+10:32:16.434 [RX] -  New connection from 127.0.0.1:49076
+10:32:16.437 [RX] FROM 127.0.0.1:59915 Capabilities-Exchange-Request
+        0000:  01 00 00 b4 80 00 01 01  00 00 00 00 de ca 73 19  ..............s.
+        0010:  61 3c 12 09 00 00 01 08  40 00 00 19 69 6d 73 2e  a<......@...ims.
+        0020:  61 6d 61 72 69 73 6f 66  74 2e 63 6f 6d 00 00 00  amarisoft.com...
+        0030:  00 00 01 28 40 00 00 15  61 6d 61 72 69 73 6f 66  ...(@...amarisof
+        0040:  74 2e 63 6f 6d 00 00 00  00 00 01 01 40 00 00 0e  t.com.......@...
+        0050:  00 01 7f 00 00 01 00 00  00 00 01 0a 40 00 00 0c  ............@...
+        0060:  00 00 28 af 00 00 01 0d  00 00 00 16 4c 54 45 20  ..(.........LTE 
+        0070:  49 4d 53 20 53 65 72 76  65 72 00 00 00 00 01 09  IMS Server......
+        0080:  40 00 00 0c 00 00 28 af  00 00 01 09 40 00 00 0c  @.....(.....@...
+        0090:  00 00 32 db 00 00 01 04  40 00 00 20 00 00 01 0a  ..2.....@.. ....
+        00a0:  40 00 00 0c 00 00 28 af  00 00 01 02 40 00 00 0c  @.....(.....@...
+        00b0:  01 00 00 00                                       ....
+        Length = 180
+        Flags = 0x80 [ Request ]
+        Command code = 257 (Capabilities-Exchange)
+        Application-id = 0 (Diameter common message)
+        Hop-by-hop identifier = 3737809689
+        End-to-end identifier = 1631326729
+        Origin-Host:
+          Code = 264
+          Flags = 0x40 [ Mandatory ]
+          Length = 25
+          Value = ims.amarisoft.com
+        Origin-Realm:
+          Code = 296
+          Flags = 0x40 [ Mandatory ]
+          Length = 21
+          Value = amarisoft.com
+        Host-IP-Address:
+          Code = 257
+          Flags = 0x40 [ Mandatory ]
+          Length = 14
+          Value = 127.0.0.1
+        Vendor-Id:
+          Code = 266
+          Flags = 0x40 [ Mandatory ]
+          Length = 12
+          Value = 10415 (3GPP)
+        Product-Name:
+          Code = 269
+          Flags = 0x00 [ ]
+          Length = 22
+          Value = LTE IMS Server
+        Supported-Vendor-Id:
+          Code = 265
+          Flags = 0x40 [ Mandatory ]
+          Length = 12
+          Value = 10415 (3GPP)
+        Supported-Vendor-Id:
+          Code = 265
+          Flags = 0x40 [ Mandatory ]
+          Length = 12
+          Value = 13019 (ETSI)
+        Vendor-Specific-Application-Id:
+          Code = 260
+          Flags = 0x40 [ Mandatory ]
+          Length = 32
+            Vendor-Id:
+              Code = 266
+              Flags = 0x40 [ Mandatory ]
+              Length = 12
+              Value = 10415 (3GPP)
+            Auth-Application-Id:
+              Code = 258
+              Flags = 0x40 [ Mandatory ]
+              Length = 12
+              Value = 16777216 (3GPP Cx/Dx)
+10:32:16.437 [CX] TO 127.0.0.1:59915 Capabilities-Exchange-Answer
+        0000:  01 00 00 d4 00 00 01 01  00 00 00 00 de ca 73 19  ..............s.
+        0010:  61 3c 12 09 00 00 01 0c  40 00 00 0c 00 00 07 d1  a<......@.......
+        0020:  00 00 01 08 40 00 00 29  68 73 73 2e 6d 6e 63 30  ....@..)hss.mnc0
+        0030:  30 31 2e 6d 63 63 30 30  31 2e 33 67 70 70 6e 65  01.mcc001.3gppne
+        0040:  74 77 6f 72 6b 2e 6f 72  67 00 00 00 00 00 01 28  twork.org......(
+        0050:  40 00 00 25 6d 6e 63 30  30 31 2e 6d 63 63 30 30  @..%mnc001.mcc00
+        0060:  31 2e 33 67 70 70 6e 65  74 77 6f 72 6b 2e 6f 72  1.3gppnetwork.or
+        0070:  67 00 00 00 00 00 01 01  40 00 00 0e 00 01 7f 00  g.......@.......
+        0080:  01 64 00 00 00 00 01 0a  40 00 00 0c 00 00 28 af  .d......@.....(.
+        0090:  00 00 01 0d 00 00 00 18  4c 54 45 20 43 6f 72 65  ........LTE Core
+        00a0:  20 4e 65 74 77 6f 72 6b  00 00 01 09 40 00 00 0c   Network....@...
+        00b0:  00 00 28 af 00 00 01 04  40 00 00 20 00 00 01 0a  ..(.....@.. ....
+        00c0:  40 00 00 0c 00 00 28 af  00 00 01 02 40 00 00 0c  @.....(.....@...
+        00d0:  01 00 00 00                                       ....
+        Length = 212
+        Flags = 0x00 [ ]
+        Command code = 257 (Capabilities-Exchange)
+        Application-id = 0 (Diameter common message)
+        Hop-by-hop identifier = 3737809689
+        End-to-end identifier = 1631326729
+        Result-code:
+          Code = 268
+          Flags = 0x40 [ Mandatory ]
+          Length = 12
+          Value = 2001 (DIAMETER_SUCCESS)
+        Origin-Host:
+          Code = 264
+          Flags = 0x40 [ Mandatory ]
+          Length = 41
+          Value = hss.mnc001.mcc001.3gppnetwork.org
+        Origin-Realm:
+          Code = 296
+          Flags = 0x40 [ Mandatory ]
+          Length = 37
+          Value = mnc001.mcc001.3gppnetwork.org
+        Host-IP-Address:
+          Code = 257
+          Flags = 0x40 [ Mandatory ]
+          Length = 14
+          Value = 127.0.1.100
+        Vendor-Id:
+          Code = 266
+          Flags = 0x40 [ Mandatory ]
+          Length = 12
+          Value = 10415 (3GPP)
+        Product-Name:
+          Code = 269
+          Flags = 0x00 [ ]
+          Length = 24
+          Value = LTE Core Network
+        Supported-Vendor-Id:
+          Code = 265
+          Flags = 0x40 [ Mandatory ]
+          Length = 12
+          Value = 10415 (3GPP)
+        Vendor-Specific-Application-Id:
+          Code = 260
+          Flags = 0x40 [ Mandatory ]
+          Length = 32
+            Vendor-Id:
+              Code = 266
+              Flags = 0x40 [ Mandatory ]
+              Length = 12
+              Value = 10415 (3GPP)
+            Auth-Application-Id:
+              Code = 258
+              Flags = 0x40 [ Mandatory ]
+              Length = 12
+              Value = 16777216 (3GPP Cx/Dx)
+10:32:16.438 [RX] FROM 127.0.0.1:49076 Capabilities-Exchange-Request
+        0000:  01 00 00 b4 80 00 01 01  00 00 00 00 90 09 1b 50  ...............P
+        0010:  61 30 44 4a 00 00 01 08  40 00 00 19 69 6d 73 2e  a0DJ....@...ims.
+        0020:  61 6d 61 72 69 73 6f 66  74 2e 63 6f 6d 00 00 00  amarisoft.com...
+        0030:  00 00 01 28 40 00 00 15  61 6d 61 72 69 73 6f 66  ...(@...amarisof
+        0040:  74 2e 63 6f 6d 00 00 00  00 00 01 01 40 00 00 0e  t.com.......@...
+        0050:  00 01 7f 00 00 01 00 00  00 00 01 0a 40 00 00 0c  ............@...
+        0060:  00 00 28 af 00 00 01 0d  00 00 00 16 4c 54 45 20  ..(.........LTE 
+        0070:  49 4d 53 20 53 65 72 76  65 72 00 00 00 00 01 09  IMS Server......
+        0080:  40 00 00 0c 00 00 28 af  00 00 01 09 40 00 00 0c  @.....(.....@...
+        0090:  00 00 32 db 00 00 01 04  40 00 00 20 00 00 01 0a  ..2.....@.. ....
+        00a0:  40 00 00 0c 00 00 28 af  00 00 01 02 40 00 00 0c  @.....(.....@...
+        00b0:  01 00 00 14                                       ....
+        Length = 180
+        Flags = 0x80 [ Request ]
+        Command code = 257 (Capabilities-Exchange)
+        Application-id = 0 (Diameter common message)
+        Hop-by-hop identifier = 2416515920
+        End-to-end identifier = 1630553162
+        Origin-Host:
+          Code = 264
+          Flags = 0x40 [ Mandatory ]
+          Length = 25
+          Value = ims.amarisoft.com
+        Origin-Realm:
+          Code = 296
+          Flags = 0x40 [ Mandatory ]
+          Length = 21
+          Value = amarisoft.com
+        Host-IP-Address:
+          Code = 257
+          Flags = 0x40 [ Mandatory ]
+          Length = 14
+          Value = 127.0.0.1
+        Vendor-Id:
+          Code = 266
+          Flags = 0x40 [ Mandatory ]
+          Length = 12
+          Value = 10415 (3GPP)
+        Product-Name:
+          Code = 269
+          Flags = 0x00 [ ]
+          Length = 22
+          Value = LTE IMS Server
+        Supported-Vendor-Id:
+          Code = 265
+          Flags = 0x40 [ Mandatory ]
+          Length = 12
+          Value = 10415 (3GPP)
+        Supported-Vendor-Id:
+          Code = 265
+          Flags = 0x40 [ Mandatory ]
+          Length = 12
+          Value = 13019 (ETSI)
+        Vendor-Specific-Application-Id:
+          Code = 260
+          Flags = 0x40 [ Mandatory ]
+          Length = 32
+            Vendor-Id:
+              Code = 266
+              Flags = 0x40 [ Mandatory ]
+              Length = 12
+              Value = 10415 (3GPP)
+            Auth-Application-Id:
+              Code = 258
+              Flags = 0x40 [ Mandatory ]
+              Length = 12
+              Value = 16777236 (3GPP Rx)
+10:32:16.438 [RX] TO 127.0.0.1:49076 Capabilities-Exchange-Answer
+        0000:  01 00 00 d4 00 00 01 01  00 00 00 00 90 09 1b 50  ...............P
+        0010:  61 30 44 4a 00 00 01 0c  40 00 00 0c 00 00 07 d1  a0DJ....@.......
+        0020:  00 00 01 08 40 00 00 29  65 70 63 2e 6d 6e 63 30  ....@..)epc.mnc0
+        0030:  30 31 2e 6d 63 63 30 30  31 2e 33 67 70 70 6e 65  01.mcc001.3gppne
+        0040:  74 77 6f 72 6b 2e 6f 72  67 00 00 00 00 00 01 28  twork.org......(
+        0050:  40 00 00 25 6d 6e 63 30  30 31 2e 6d 63 63 30 30  @..%mnc001.mcc00
+        0060:  31 2e 33 67 70 70 6e 65  74 77 6f 72 6b 2e 6f 72  1.3gppnetwork.or
+        0070:  67 00 00 00 00 00 01 01  40 00 00 0e 00 01 7f 00  g.......@.......
+        0080:  01 64 00 00 00 00 01 0a  40 00 00 0c 00 00 28 af  .d......@.....(.
+        0090:  00 00 01 0d 00 00 00 18  4c 54 45 20 43 6f 72 65  ........LTE Core
+        00a0:  20 4e 65 74 77 6f 72 6b  00 00 01 09 40 00 00 0c   Network....@...
+        00b0:  00 00 28 af 00 00 01 04  40 00 00 20 00 00 01 0a  ..(.....@.. ....
+        00c0:  40 00 00 0c 00 00 28 af  00 00 01 02 40 00 00 0c  @.....(.....@...
+        00d0:  01 00 00 14                                       ....
+        Length = 212
+        Flags = 0x00 [ ]
+        Command code = 257 (Capabilities-Exchange)
+        Application-id = 0 (Diameter common message)
+        Hop-by-hop identifier = 2416515920
+        End-to-end identifier = 1630553162
+        Result-code:
+          Code = 268
+          Flags = 0x40 [ Mandatory ]
+          Length = 12
+          Value = 2001 (DIAMETER_SUCCESS)
+        Origin-Host:
+          Code = 264
+          Flags = 0x40 [ Mandatory ]
+          Length = 41
+          Value = epc.mnc001.mcc001.3gppnetwork.org
+        Origin-Realm:
+          Code = 296
+          Flags = 0x40 [ Mandatory ]
+          Length = 37
+          Value = mnc001.mcc001.3gppnetwork.org
+        Host-IP-Address:
+          Code = 257
+          Flags = 0x40 [ Mandatory ]
+          Length = 14
+          Value = 127.0.1.100
+        Vendor-Id:
+          Code = 266
+          Flags = 0x40 [ Mandatory ]
+          Length = 12
+          Value = 10415 (3GPP)
+        Product-Name:
+          Code = 269
+          Flags = 0x00 [ ]
+          Length = 24
+          Value = LTE Core Network
+        Supported-Vendor-Id:
+          Code = 265
+          Flags = 0x40 [ Mandatory ]
+          Length = 12
+          Value = 10415 (3GPP)
+        Vendor-Specific-Application-Id:
+          Code = 260
+          Flags = 0x40 [ Mandatory ]
+          Length = 32
+            Vendor-Id:
+              Code = 266
+              Flags = 0x40 [ Mandatory ]
+              Length = 12
+              Value = 10415 (3GPP)
+            Auth-Application-Id:
+              Code = 258
+              Flags = 0x40 [ Mandatory ]
+              Length = 12
+              Value = 16777236 (3GPP Rx)
+10:32:17.396 [IMS] -  - Connecting to 127.0.0.1:10042
+10:32:17.396 [IMS] -  - Connected to 127.0.0.1:10042
+10:32:47.000 [NGAP] -  New connection from 127.0.1.1:58603
+10:32:47.000 [NGAP] FROM - - 127.0.1.1:58603 NG setup request
+        0000:  00 15 00 36 00 00 04 00  1b 00 09 00 00 f1 10 30  ...6...........0
+        0010:  00 12 34 50 00 52 40 0c  04 80 67 6e 62 30 30 31  ..4P.R@...gnb001
+        0020:  32 33 34 35 00 66 00 0d  00 00 00 01 f4 00 00 f1  2345.f..........
+        0030:  10 00 00 00 08 00 15 40  01 40                    .......@.@
+        initiatingMessage: {
+          procedureCode id-NGSetup,
+          criticality reject,
+          value {
+            protocolIEs {
+              {
+                id id-GlobalRANNodeID,
+                criticality reject,
+                value globalGNB-ID: {
+                  pLMNIdentity '00F110'H,
+                  gNB-ID gNB-ID: '0012345'H
+                }
+              },
+              {
+                id id-RANNodeName,
+                criticality ignore,
+                value "gnb0012345"
+              },
+              {
+                id id-SupportedTAList,
+                criticality reject,
+                value {
+                  {
+                    tAC '0001F4'H,
+                    broadcastPLMNList {
+                      {
+                        pLMNIdentity '00F110'H,
+                        tAISliceSupportList {
+                          {
+                            s-NSSAI {
+                              sST '01'H
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                id id-DefaultPagingDRX,
+                criticality ignore,
+                value v128
+              }
+            }
+          }
+        }
+
+10:32:47.000 [NGAP] TO - - 127.0.1.1:58603 NG setup response
+        0000:  20 15 00 55 00 00 04 00  01 00 31 17 00 61 6d 61   ..U......1..ama
+        0010:  72 69 73 6f 66 74 2e 61  6d 66 2e 35 67 63 2e 6d  risoft.amf.5gc.m
+        0020:  6e 63 30 30 31 2e 6d 63  63 30 30 31 2e 33 67 70  nc001.mcc001.3gp
+        0030:  70 6e 65 74 77 6f 72 6b  2e 6f 72 67 00 60 00 08  pnetwork.org.`..
+        0040:  00 00 00 f1 10 80 01 50  00 56 40 01 32 00 50 00  .......P.V@.2.P.
+        0050:  08 00 00 f1 10 00 00 00  08                       .........
+        successfulOutcome: {
+          procedureCode id-NGSetup,
+          criticality reject,
+          value {
+            protocolIEs {
+              {
+                id id-AMFName,
+                criticality reject,
+                value "amarisoft.amf.5gc.mnc001.mcc001.3gppnetwork.org"
+              },
+              {
+                id id-ServedGUAMIList,
+                criticality reject,
+                value {
+                  {
+                    gUAMI {
+                      pLMNIdentity '00F110'H,
+                      aMFRegionID '80'H,
+                      aMFSetID '0000000101'B,
+                      aMFPointer '010000'B
+                    }
+                  }
+                }
+              },
+              {
+                id id-RelativeAMFCapacity,
+                criticality ignore,
+                value 50
+              },
+              {
+                id id-PLMNSupportList,
+                criticality reject,
+                value {
+                  {
+                    pLMNIdentity '00F110'H,
+                    sliceSupportList {
+                      {
+                        s-NSSAI {
+                          sST '01'H
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+
+10:32:50.170 [NGAP] FROM - 0001 127.0.1.1:58603 Initial UE message
+        0000:  00 0f 40 6b 00 00 05 00  55 00 02 00 01 00 26 00  ..@k....U.....&.
+        0010:  41 40 7e 00 41 79 00 36  01 00 f1 10 f0 ff 02 1b  A@~.Ay.6........
+        0020:  02 bd 45 a6 33 c2 4a 16  fc e1 81 41 16 4b 25 aa  ..E.3.J....A.K%.
+        0030:  80 fa f1 78 6a 93 b2 fd  95 3d 8a 78 6c 34 75 47  ...xj....=.xl4uG
+        0040:  1f 5c 29 26 6b 1a 66 97  42 c9 a8 1f 76 02 2e 02  .\)&k.f.B...v...
+        0050:  e0 e0 00 79 00 0f 40 00  f1 10 00 12 34 50 10 00  ...y..@.....4P..
+        0060:  f1 10 00 01 f4 00 5a 40  01 18 00 70 40 01 00     ......Z@...p@..
+        initiatingMessage: {
+          procedureCode id-InitialUEMessage,
+          criticality ignore,
+          value {
+            protocolIEs {
+              {
+                id id-RAN-UE-NGAP-ID,
+                criticality reject,
+                value 1
+              },
+              {
+                id id-NAS-PDU,
+                criticality reject,
+                value '7E00417900360100F110F0FF021B02BD45A633C24A16FCE18141164B25AA80FAF1786A93B2FD953D8A786C3475471F5C29266B1A669742C9A81F76022E02E0E0'H
+              },
+              {
+                id id-UserLocationInformation,
+                criticality reject,
+                value userLocationInformationNR: {
+                  nR-CGI {
+                    pLMNIdentity '00F110'H,
+                    nRCellIdentity '001234501'H
+                  },
+                  tAI {
+                    pLMNIdentity '00F110'H,
+                    tAC '0001F4'H
+                  }
+                }
+              },
+              {
+                id id-RRCEstablishmentCause,
+                criticality ignore,
+                value mo-Signalling
+              },
+              {
+                id id-UEContextRequest,
+                criticality ignore,
+                value requested
+              }
+            }
+          }
+        }
+
+10:32:50.170 [NAS] UL 0064 5GMM: Registration request
+        0000:  7e 00 41 79 00 36 01 00  f1 10 f0 ff 02 1b 02 bd  ~.Ay.6..........
+        0010:  45 a6 33 c2 4a 16 fc e1  81 41 16 4b 25 aa 80 fa  E.3.J....A.K%...
+        0020:  f1 78 6a 93 b2 fd 95 3d  8a 78 6c 34 75 47 1f 5c  .xj....=.xl4uG.\
+        0030:  29 26 6b 1a 66 97 42 c9  a8 1f 76 02 2e 02 e0 e0  )&k.f.B...v.....
+        Protocol discriminator = 0x7e (5GS Mobility Management)
+        Security header = 0x0 (Plain 5GS NAS message, not security protected)
+        Message type = 0x41 (Registration request)
+        5GS registration type:
+          Follow-on request bit = 1
+          Value = 1 (initial registration)
+        ngKSI:
+          TSC = 0
+          NAS key set identifier = 7
+        5GS mobile identity:
+          SUCI
+            SUPI format = 0 (IMSI)
+            MCC = 001
+            MNC = 01 
+            Routing indicator = 0
+            Protection scheme id = 2 (ECIES scheme profile B)
+            Home network public key identifier = 27
+            ECC ephemeral public key = 0x02bd45a633c24a16fce18141164b25aa80faf1786a93b2fd953d8a786c3475471f
+            Ciphertext = 0x5c29266b1a
+            MAC tag = 0x669742c9a81f7602
+        UE security capability:
+          0xe0 (5G-EA0=1, 128-5G-EA1=1, 128-5G-EA2=1, 128-5G-EA3=0, 5G-EA4=0, 5G-EA5=0, 5G-EA6=0, 5G-EA7=0)
+          0xe0 (5G-IA0=1, 128-5G-IA1=1, 128-5G-IA2=1, 128-5G-IA3=0, 5G-IA4=0, 5G-IA5=0, 5G-IA6=0, 5G-IA7=0)
+10:32:50.170 [NAS] -  0064 5GS encryption caps=0xe0 integrity caps=0xe0
+10:32:50.171 [NAS] DL 0064 5GMM: Authentication request
+        0000:  7e 00 56 00 02 00 00 21  d7 00 40 45 a2 88 55 4d  ~.V....!..@E..UM
+        0010:  3f 1d 03 9e 25 8b e8 2b  20 10 76 e6 dd 33 3a 96  ?...%..+ .v..3:.
+        0020:  90 01 d7 11 62 76 e6 fc  a3 3b                    ....bv...;
+        Protocol discriminator = 0x7e (5GS Mobility Management)
+        Security header = 0x0 (Plain 5GS NAS message, not security protected)
+        Message type = 0x56 (Authentication request)
+        ngKSI:
+          TSC = 0
+          NAS key set identifier = 0
+        ABBA:
+          Length = 2
+          Data = 00 00
+        Authentication parameter RAND:
+          Data = d7 00 40 45 a2 88 55 4d 3f 1d 03 9e 25 8b e8 2b
+        Authentication parameter AUTN:
+          Length = 16
+          Data = 76 e6 dd 33 3a 96 90 01 d7 11 62 76 e6 fc a3 3b
+10:32:50.171 [NGAP] TO 0064 0001 127.0.1.1:58603 Downlink NAS transport
+        0000:  00 04 40 3e 00 00 03 00  0a 00 02 00 64 00 55 00  ..@>........d.U.
+        0010:  02 00 01 00 26 00 2b 2a  7e 00 56 00 02 00 00 21  ....&.+*~.V....!
+        0020:  d7 00 40 45 a2 88 55 4d  3f 1d 03 9e 25 8b e8 2b  ..@E..UM?...%..+
+        0030:  20 10 76 e6 dd 33 3a 96  90 01 d7 11 62 76 e6 fc   .v..3:.....bv..
+        0040:  a3 3b                                             .;
+        initiatingMessage: {
+          procedureCode id-DownlinkNASTransport,
+          criticality ignore,
+          value {
+            protocolIEs {
+              {
+                id id-AMF-UE-NGAP-ID,
+                criticality reject,
+                value 100
+              },
+              {
+                id id-RAN-UE-NGAP-ID,
+                criticality reject,
+                value 1
+              },
+              {
+                id id-NAS-PDU,
+                criticality reject,
+                value '7E00560002000021D7004045A288554D3F1D039E258BE82B201076E6DD333A969001D7116276E6FCA33B'H
+              }
+            }
+          }
+        }
+
+10:32:50.190 [NGAP] FROM 0064 0001 127.0.1.1:58603 Uplink NAS transport
+        0000:  00 2e 40 3c 00 00 04 00  0a 00 02 00 64 00 55 00  ..@<........d.U.
+        0010:  02 00 01 00 26 00 16 15  7e 00 57 2d 10 4a a3 31  ....&...~.W-.J.1
+        0020:  6b d3 7a 16 7f 71 14 5c  7e fe 22 d4 f2 00 79 40  k.z..q.\~."...y@
+        0030:  0f 40 00 f1 10 00 12 34  50 10 00 f1 10 00 01 f4  .@.....4P.......
+        initiatingMessage: {
+          procedureCode id-UplinkNASTransport,
+          criticality ignore,
+          value {
+            protocolIEs {
+              {
+                id id-AMF-UE-NGAP-ID,
+                criticality reject,
+                value 100
+              },
+              {
+                id id-RAN-UE-NGAP-ID,
+                criticality reject,
+                value 1
+              },
+              {
+                id id-NAS-PDU,
+                criticality reject,
+                value '7E00572D104AA3316BD37A167F71145C7EFE22D4F2'H
+              },
+              {
+                id id-UserLocationInformation,
+                criticality ignore,
+                value userLocationInformationNR: {
+                  nR-CGI {
+                    pLMNIdentity '00F110'H,
+                    nRCellIdentity '001234501'H
+                  },
+                  tAI {
+                    pLMNIdentity '00F110'H,
+                    tAC '0001F4'H
+                  }
+                }
+              }
+            }
+          }
+        }
+
+10:32:50.190 [NAS] UL 0064 5GMM: Authentication response
+        0000:  7e 00 57 2d 10 4a a3 31  6b d3 7a 16 7f 71 14 5c  ~.W-.J.1k.z..q.\
+        0010:  7e fe 22 d4 f2                                    ~."..
+        Protocol discriminator = 0x7e (5GS Mobility Management)
+        Security header = 0x0 (Plain 5GS NAS message, not security protected)
+        Message type = 0x57 (Authentication response)
+        Authentication response parameter:
+          Length = 16
+          Data = 4a a3 31 6b d3 7a 16 7f 71 14 5c 7e fe 22 d4 f2
+10:32:50.190 [NAS] -  0064 AUSF_5G_AKA_CONFIRMATION
+10:32:50.190 [NAS] -  0064 K-amf: 7a2eda1a9949b900952154a1ad2e47e781164f92bc2b939ed4ceb5c19abaae41
+10:32:50.190 [NAS] -  0064 UE auth OK
+10:32:50.190 [NAS] -  0064 Deciphered IMSI: 001010123456789
+10:32:50.190 [NAS] -  0064 3GPP ctx: tx_nas_count=0 rx_nas_count=16777215 enc_algo=0 int_algo=2
+10:32:50.190 [NAS] -  0064 K-nas-cip: 00000000000000000000000000000000
+10:32:50.190 [NAS] -  0064 K-nas-int: 7420aefe7617d857e2682ab23836fa49
+10:32:50.190 [NAS] DL    - Integrity: count=0x00000000 bearer=0x1 len=104
+        Key: 7420aefe7617d857e2682ab23836fa49
+        Message: 007e005d020002e0e0e1360102
+        T: 14b16a06
+10:32:50.190 [NAS] DL 0064 5GMM: Security mode command
+        0000:  7e 03 14 b1 6a 06 00 7e  00 5d 02 00 02 e0 e0 e1  ~...j..~.]......
+        0010:  36 01 02                                          6..
+        Protocol discriminator = 0x7e (5GS Mobility Management)
+        Security header = 0x3 (Integrity protected with new 5G NAS security context)
+        Auth code = 0x14b16a06
+        Sequence number = 0x00
+        Protocol discriminator = 0x7e (5GS Mobility Management)
+        Security header = 0x0 (Plain 5GS NAS message, not security protected)
+        Message type = 0x5d (Security mode command)
+        Selected NAS security algorithms = 0x02 (5G-EA0, 5G-IA2)
+        ngKSI:
+          TSC = 0
+          NAS key set identifier = 0
+        Replayed UE security capabilities:
+          0xe0 (5G-EA0=1, 128-5G-EA1=1, 128-5G-EA2=1, 128-5G-EA3=0, 5G-EA4=0, 5G-EA5=0, 5G-EA6=0, 5G-EA7=0)
+          0xe0 (5G-IA0=1, 128-5G-IA1=1, 128-5G-IA2=1, 128-5G-IA3=0, 5G-IA4=0, 5G-IA5=0, 5G-IA6=0, 5G-IA7=0)
+        IMEISV request = 1
+        Additional 5G security information = 0x02 (RINMR=1, HDP=0)
+10:32:50.190 [NGAP] TO 0064 0001 127.0.1.1:58603 Downlink NAS transport
+        0000:  00 04 40 27 00 00 03 00  0a 00 02 00 64 00 55 00  ..@'........d.U.
+        0010:  02 00 01 00 26 00 14 13  7e 03 14 b1 6a 06 00 7e  ....&...~...j..~
+        0020:  00 5d 02 00 02 e0 e0 e1  36 01 02                 .]......6..
+        initiatingMessage: {
+          procedureCode id-DownlinkNASTransport,
+          criticality ignore,
+          value {
+            protocolIEs {
+              {
+                id id-AMF-UE-NGAP-ID,
+                criticality reject,
+                value 100
+              },
+              {
+                id id-RAN-UE-NGAP-ID,
+                criticality reject,
+                value 1
+              },
+              {
+                id id-NAS-PDU,
+                criticality reject,
+                value '7E0314B16A06007E005D020002E0E0E1360102'H
+              }
+            }
+          }
+        }
+
+10:32:50.210 [NGAP] FROM 0064 0001 127.0.1.1:58603 Uplink NAS transport
+        0000:  00 2e 40 80 8b 00 00 04  00 0a 00 02 00 64 00 55  ..@..........d.U
+        0010:  00 02 00 01 00 26 00 65  64 7e 04 95 48 af 39 00  .....&.ed~..H.9.
+        0020:  7e 00 5e 77 00 09 05 21  43 65 07 00 00 01 f1 71  ~.^w...!Ce.....q
+        0030:  00 4b 7e 00 41 79 00 36  01 00 f1 10 f0 ff 02 1b  .K~.Ay.6........
+        0040:  02 bd 45 a6 33 c2 4a 16  fc e1 81 41 16 4b 25 aa  ..E.3.J....A.K%.
+        0050:  80 fa f1 78 6a 93 b2 fd  95 3d 8a 78 6c 34 75 47  ...xj....=.xl4uG
+        0060:  1f 5c 29 26 6b 1a 66 97  42 c9 a8 1f 76 02 10 03  .\)&k.f.B...v...
+        0070:  04 00 10 2e 02 e0 e0 18  01 01 53 01 01 00 79 40  ..........S...y@
+        0080:  0f 40 00 f1 10 00 12 34  50 10 00 f1 10 00 01 f4  .@.....4P.......
+        initiatingMessage: {
+          procedureCode id-UplinkNASTransport,
+          criticality ignore,
+          value {
+            protocolIEs {
+              {
+                id id-AMF-UE-NGAP-ID,
+                criticality reject,
+                value 100
+              },
+              {
+                id id-RAN-UE-NGAP-ID,
+                criticality reject,
+                value 1
+              },
+              {
+                id id-NAS-PDU,
+                criticality reject,
+                value '7E049548AF39007E005E7700090521436507000001F171004B7E00417900360100F110F0FF021B02BD45A633C24A16FCE18141164B25AA80FAF1786A93B2FD953D8A786C3475471F5C29266B1A669742C9A81F760210030400102E02E0E0180101530101'H
+              },
+              {
+                id id-UserLocationInformation,
+                criticality ignore,
+                value userLocationInformationNR: {
+                  nR-CGI {
+                    pLMNIdentity '00F110'H,
+                    nRCellIdentity '001234501'H
+                  },
+                  tAI {
+                    pLMNIdentity '00F110'H,
+                    tAC '0001F4'H
+                  }
+                }
+              }
+            }
+          }
+        }
+
+10:32:50.210 [NAS] UL    - Integrity: count=0x00000000 bearer=0x1 len=752
+        Key: 7420aefe7617d857e2682ab23836fa49
+        Message: 007e005e7700090521436507000001f171004b7e00417900360100f110f0ff021b02bd45a633c24a16fce18141164b25aa80faf1786a93b2fd953d8a786c3475471f5c29266b1a669742c9a81f760210030400102e02e0e0180101530101
+        T: 9548af39
+10:32:50.210 [NAS] UL 0064 5GMM: Security mode complete
+        0000:  7e 04 95 48 af 39 00 7e  00 5e 77 00 09 05 21 43  ~..H.9.~.^w...!C
+        0010:  65 07 00 00 01 f1 71 00  4b 7e 00 41 79 00 36 01  e.....q.K~.Ay.6.
+        0020:  00 f1 10 f0 ff 02 1b 02  bd 45 a6 33 c2 4a 16 fc  .........E.3.J..
+        0030:  e1 81 41 16 4b 25 aa 80  fa f1 78 6a 93 b2 fd 95  ..A.K%....xj....
+        0040:  3d 8a 78 6c 34 75 47 1f  5c 29 26 6b 1a 66 97 42  =.xl4uG.\)&k.f.B
+        0050:  c9 a8 1f 76 02 10 03 04  00 10 2e 02 e0 e0 18 01  ...v............
+        0060:  01 53 01 01                                       .S..
+        Protocol discriminator = 0x7e (5GS Mobility Management)
+        Security header = 0x4 (Integrity protected and ciphered with new 5G NAS security context)
+        Auth code = 0x9548af39
+        Sequence number = 0x00
+        Protocol discriminator = 0x7e (5GS Mobility Management)
+        Security header = 0x0 (Plain 5GS NAS message, not security protected)
+        Message type = 0x5e (Security mode complete)
+        IMEISV:
+          IMEISV = 0123456700000101
+        NAS message container:
+          Protocol discriminator = 0x7e (5GS Mobility Management)
+          Security header = 0x0 (Plain 5GS NAS message, not security protected)
+          Message type = 0x41 (Registration request)
+          5GS registration type:
+            Follow-on request bit = 1
+            Value = 1 (initial registration)
+          ngKSI:
+            TSC = 0
+            NAS key set identifier = 7
+          5GS mobile identity:
+            SUCI
+              SUPI format = 0 (IMSI)
+              MCC = 001
+              MNC = 01 
+              Routing indicator = 0
+              Protection scheme id = 2 (ECIES scheme profile B)
+              Home network public key identifier = 27
+              ECC ephemeral public key = 0x02bd45a633c24a16fce18141164b25aa80faf1786a93b2fd953d8a786c3475471f
+              Ciphertext = 0x5c29266b1a
+              MAC tag = 0x669742c9a81f7602
+          5GMM capability:
+            0x04 (SGC=0, 5G-IPHC-CP CIoT=0, N3 data=0, 5G-CP CIoT=0, RestrictEC=0, LPP=1, HO attach=0, S1 mode=0)
+            0x00 (RACS=0, NSSAA=0, 5G-LCS=0, V2XCNPC5=0, V2XCEPC5=0, V2X=0, 5G-UP CIoT=0, 5GSRVCC=0)
+            0x10 (5G ProSe-l2relay=0, 5G ProSe-dc=0, 5G ProSe-dd=0, ER-NSSAI=1, 5G-EHC-CP CIoT=0, multipleUP=0, WUSA=0, CAG=0)
+          UE security capability:
+            0xe0 (5G-EA0=1, 128-5G-EA1=1, 128-5G-EA2=1, 128-5G-EA3=0, 5G-EA4=0, 5G-EA5=0, 5G-EA6=0, 5G-EA7=0)
+            0xe0 (5G-IA0=1, 128-5G-IA1=1, 128-5G-IA2=1, 128-5G-IA3=0, 5G-IA4=0, 5G-IA5=0, 5G-IA6=0, 5G-IA7=0)
+          UE's usage setting = 0x01 (Data centric)
+          5GS update type = 0x01 (EPS-PNB-CIoT=no additional information, 5GS-PNB-CIoT=no additional information, NG-RAN-RCU=0, SMS requested=1)
+10:32:50.210 [NAS] -  0064 5GS encryption caps=0xe0 integrity caps=0xe0
+10:32:50.211 [NAS] DL    - Integrity: count=0x00000001 bearer=0x1 len=432
+        Key: 7420aefe7617d857e2682ab23836fa49
+        Message: 017e0042010977000bf200f1108001502984c42454070000f1100001f41502010131020101210203005e01be3408031f19f1031f11f2
+        T: d1eb9abf
+10:32:50.211 [NAS] DL 0064 5GMM: Registration accept
+        0000:  7e 02 d1 eb 9a bf 01 7e  00 42 01 09 77 00 0b f2  ~......~.B..w...
+        0010:  00 f1 10 80 01 50 29 84  c4 24 54 07 00 00 f1 10  .....P)..$T.....
+        0020:  00 01 f4 15 02 01 01 31  02 01 01 21 02 03 00 5e  .......1...!...^
+        0030:  01 be 34 08 03 1f 19 f1  03 1f 11 f2              ..4.........
+        Protocol discriminator = 0x7e (5GS Mobility Management)
+        Security header = 0x2 (Integrity protected and ciphered)
+        Auth code = 0xd1eb9abf
+        Sequence number = 0x01
+        Protocol discriminator = 0x7e (5GS Mobility Management)
+        Security header = 0x0 (Plain 5GS NAS message, not security protected)
+        Message type = 0x42 (Registration accept)
+        5GS registration result = 0x09 (Disaster roaming registration result=0, Emergency registered=0, NSSAA to be performed=0, SMS allowed=1, 3GPP access)
+        5G-GUTI:
+          5G-GUTI
+            MCC = 001
+            MNC = 01 
+            AMF Region ID = 128
+            AMF Set ID = 5
+            AMF Pointer = 16
+            5G-TMSI = 0x2984c424
+        TAI list:
+          Length = 7
+          Data = 00 00 f1 10 00 01 f4
+        Allowed NSSAI:
+          S-NSSAI
+            Length of S-NSSAI contents = 1 (SST)
+            SST = 0x01
+        Configured NSSAI:
+          S-NSSAI
+            Length of S-NSSAI contents = 1 (SST)
+            SST = 0x01
+        5GS network feature support:
+          0x03 (MPSI=0, IWK N26=0, EMF=not supported, EMC=not supported, IMS-VoPS-N3GPP=1, IMS-VoPS-3GPP=1)
+          0x00 (5G-UP CIoT=0, 5G-IPHC-CP CIoT=0, N3 data=0, 5G-CP CIoT=0, RestrictEC=both CE mode A and CE mode B are not restricted, MCSI=0, EMCN3=0)
+        T3512 value:
+          Value = 30
+          Unit = 5 (1 minute)
+        Emergency number list:
+          Length = 8
+          Data = 03 1f 19 f1 03 1f 11 f2
+10:32:50.211 [NAS] -  0064 K-gnb: e26d50c2d5f64bb5895d2c9e2079b7c4d804670e9dc15033a7cdd28f4631678c
+10:32:50.211 [NGAP] TO 0064 0001 127.0.1.1:58603 Initial context setup request
+        0000:  00 0e 00 80 ab 00 00 0a  00 0a 00 02 00 64 00 55  .............d.U
+        0010:  00 02 00 01 00 1c 00 07  00 00 f1 10 80 01 50 00  ..............P.
+        0020:  00 00 02 00 01 00 77 00  09 18 00 0c 00 00 00 00  ......w.........
+        0030:  00 00 00 5e 00 20 e2 6d  50 c2 d5 f6 4b b5 89 5d  ...^. .mP...K..]
+        0040:  2c 9e 20 79 b7 c4 d8 04  67 0e 9d c1 50 33 a7 cd  ,. y....g...P3..
+        0050:  d2 8f 46 31 67 8c 00 24  40 04 00 00 f1 10 00 22  ..F1g..$@......"
+        0060:  40 08 01 23 45 67 00 ff  ff 01 00 26 40 3d 3c 7e  @..#Eg.....&@=<~
+        0070:  02 d1 eb 9a bf 01 7e 00  42 01 09 77 00 0b f2 00  ......~.B..w....
+        0080:  f1 10 80 01 50 29 84 c4  24 54 07 00 00 f1 10 00  ....P)..$T......
+        0090:  01 f4 15 02 01 01 31 02  01 01 21 02 03 00 5e 01  ......1...!...^.
+        00a0:  be 34 08 03 1f 19 f1 03  1f 11 f2 00 92 40 01 00  .4...........@..
+        initiatingMessage: {
+          procedureCode id-InitialContextSetup,
+          criticality reject,
+          value {
+            protocolIEs {
+              {
+                id id-AMF-UE-NGAP-ID,
+                criticality reject,
+                value 100
+              },
+              {
+                id id-RAN-UE-NGAP-ID,
+                criticality reject,
+                value 1
+              },
+              {
+                id id-GUAMI,
+                criticality reject,
+                value {
+                  pLMNIdentity '00F110'H,
+                  aMFRegionID '80'H,
+                  aMFSetID '0000000101'B,
+                  aMFPointer '010000'B
+                }
+              },
+              {
+                id id-AllowedNSSAI,
+                criticality reject,
+                value {
+                  {
+                    s-NSSAI {
+                      sST '01'H
+                    }
+                  }
+                }
+              },
+              {
+                id id-UESecurityCapabilities,
+                criticality reject,
+                value {
+                  nRencryptionAlgorithms 'C000'H,
+                  nRintegrityProtectionAlgorithms 'C000'H,
+                  eUTRAencryptionAlgorithms '0000'H,
+                  eUTRAintegrityProtectionAlgorithms '0000'H
+                }
+              },
+              {
+                id id-SecurityKey,
+                criticality reject,
+                value 'E26D50C2D5F64BB5895D2C9E2079B7C4D804670E9DC15033A7CDD28F4631678C'H
+              },
+              {
+                id id-MobilityRestrictionList,
+                criticality ignore,
+                value {
+                  servingPLMN '00F110'H
+                }
+              },
+              {
+                id id-MaskedIMEISV,
+                criticality ignore,
+                value '0123456700FFFF01'H
+              },
+              {
+                id id-NAS-PDU,
+                criticality ignore,
+                value '7E02D1EB9ABF017E0042010977000BF200F1108001502984C42454070000F1100001F41502010131020101210203005E01BE3408031F19F1031F11F2'H
+              },
+              {
+                id id-RedirectionVoiceFallback,
+                criticality ignore,
+                value possible
+              }
+            }
+          }
+        }
+
+10:32:50.211 [NAS] -  0064 HINTS: imsi=001010123456789 imeisv=0123456700000101 global_ran_node_id=00101.74565 ran_address=127.0.1.1:58603 ran_ue_id=1
+10:32:50.258 [NGAP] FROM 0064 0001 127.0.1.1:58603 UE radio capability info indication
+        0000:  00 2c 40 80 a7 00 00 04  00 0a 00 02 00 64 00 55  .,@..........d.U
+        0010:  00 02 00 01 00 75 40 80  88 80 86 04 04 18 88 08  .....u@.........
+        0020:  0c 1a 03 3a 04 74 65 a0  2d fb d8 38 6a 00 00 2c  ...:.te.-..8j..,
+        0030:  12 62 e0 00 30 7e 1a 00  18 df f8 00 b8 01 4c 5c  .b..0~........L\
+        0040:  4d 90 00 00 10 a8 00 1a  b4 18 00 0c 00 f4 0e 3c  M..............<
+        0050:  87 3e 00 00 41 70 03 ff  00 1c 00 ff c0 02 22 00  .>..Ap........".
+        0060:  00 36 5e 00 05 e0 00 00  08 01 c4 d0 00 00 00 02  .6^.............
+        0070:  02 69 58 00 00 00 e0 10  12 3e 00 00 00 00 00 00  .iX......>......
+        0080:  0a 55 40 00 40 00 02 59  65 00 0f 2a 82 8d 80 00  .U@.@..Ye..*....
+        0090:  16 80 1e 00 02 00 00 00  08 01 00 20 48 95 40 2c  ........... H.@,
+        00a0:  00 00 76 40 07 40 05 0c  00 13 40 00              ..v@.@....@.
+        initiatingMessage: {
+          procedureCode id-UERadioCapabilityInfoIndication,
+          criticality ignore,
+          value {
+            protocolIEs {
+              {
+                id id-AMF-UE-NGAP-ID,
+                criticality reject,
+                value 100
+              },
+              {
+                id id-RAN-UE-NGAP-ID,
+                criticality reject,
+                value 1
+              },
+              {
+                id id-UERadioCapability,
+                criticality ignore,
+                value '04041888080C1A033A047465A02DFBD8386A00002C1262E000307E1A0018DFF800B8014C5C4D90000010A8001AB418000C00F40E3C873E0000417003FF001C00FFC002220000365E0005E000000801C4D000000002026958000000E010123E0000000000000A5540004000025965000F2A828D800016801E0002000000080100204895402C00'H
+              },
+              {
+                id id-UERadioCapabilityForPaging,
+                criticality ignore,
+                value {
+                  uERadioCapabilityForPagingOfNR {
+                    criticalExtensions c1: ueRadioPagingInformation: {
+                      supportedBandListNRForPaging {
+                        78
+                      },
+                      nonCriticalExtension {
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+
+10:32:50.290 [NGAP] FROM 0064 0001 127.0.1.1:58603 Initial context setup response
+        0000:  20 0e 00 0f 00 00 02 00  0a 40 02 00 64 00 55 40   ........@..d.U@
+        0010:  02 00 01                                          ...
+        successfulOutcome: {
+          procedureCode id-InitialContextSetup,
+          criticality reject,
+          value {
+            protocolIEs {
+              {
+                id id-AMF-UE-NGAP-ID,
+                criticality ignore,
+                value 100
+              },
+              {
+                id id-RAN-UE-NGAP-ID,
+                criticality ignore,
+                value 1
+              }
+            }
+          }
+        }
+
+10:32:50.290 [NGAP] FROM 0064 0001 127.0.1.1:58603 Uplink NAS transport
+        0000:  00 2e 40 31 00 00 04 00  0a 00 02 00 64 00 55 00  ..@1........d.U.
+        0010:  02 00 01 00 26 00 0b 0a  7e 02 59 c5 21 d9 01 7e  ....&...~.Y.!..~
+        0020:  00 43 00 79 40 0f 40 00  f1 10 00 12 34 50 10 00  .C.y@.@.....4P..
+        0030:  f1 10 00 01 f4                                    .....
+        initiatingMessage: {
+          procedureCode id-UplinkNASTransport,
+          criticality ignore,
+          value {
+            protocolIEs {
+              {
+                id id-AMF-UE-NGAP-ID,
+                criticality reject,
+                value 100
+              },
+              {
+                id id-RAN-UE-NGAP-ID,
+                criticality reject,
+                value 1
+              },
+              {
+                id id-NAS-PDU,
+                criticality reject,
+                value '7E0259C521D9017E0043'H
+              },
+              {
+                id id-UserLocationInformation,
+                criticality ignore,
+                value userLocationInformationNR: {
+                  nR-CGI {
+                    pLMNIdentity '00F110'H,
+                    nRCellIdentity '001234501'H
+                  },
+                  tAI {
+                    pLMNIdentity '00F110'H,
+                    tAC '0001F4'H
+                  }
+                }
+              }
+            }
+          }
+        }
+
+10:32:50.290 [NAS] UL    - Integrity: count=0x00000001 bearer=0x1 len=32
+        Key: 7420aefe7617d857e2682ab23836fa49
+        Message: 017e0043
+        T: 59c521d9
+10:32:50.290 [NAS] UL 0064 5GMM: Registration complete
+        0000:  7e 02 59 c5 21 d9 01 7e  00 43                    ~.Y.!..~.C
+        Protocol discriminator = 0x7e (5GS Mobility Management)
+        Security header = 0x2 (Integrity protected and ciphered)
+        Auth code = 0x59c521d9
+        Sequence number = 0x01
+        Protocol discriminator = 0x7e (5GS Mobility Management)
+        Security header = 0x0 (Plain 5GS NAS message, not security protected)
+        Message type = 0x43 (Registration complete)
+10:32:50.290 [IMS] TO 1 NAS register: imsi=001010123456789 imeisv=0123456700000101 flags=0
+10:32:50.290 [NAS] DL    - Integrity: count=0x00000002 bearer=0x1 len=368
+        Key: 7420aefe7617d857e2682ab23836fa49
+        Message: 027e0054431081c176589e9ebfcd7490b34cbfbfe56b450981c176589e9ebfcd7446404762206090230540490100
+        T: f7c8a297
+10:32:50.290 [NAS] DL 0064 5GMM: Configuration update command
+        0000:  7e 02 f7 c8 a2 97 02 7e  00 54 43 10 81 c1 76 58  ~......~.TC...vX
+        0010:  9e 9e bf cd 74 90 b3 4c  bf bf e5 6b 45 09 81 c1  ....t..L...kE...
+        0020:  76 58 9e 9e bf cd 74 46  40 47 62 20 60 90 23 05  vX....tF@Gb `.#.
+        0030:  40 49 01 00                                       @I..
+        Protocol discriminator = 0x7e (5GS Mobility Management)
+        Security header = 0x2 (Integrity protected and ciphered)
+        Auth code = 0xf7c8a297
+        Sequence number = 0x02
+        Protocol discriminator = 0x7e (5GS Mobility Management)
+        Security header = 0x0 (Plain 5GS NAS message, not security protected)
+        Message type = 0x54 (Configuration update command)
+        Full name for network:
+          Length = 16
+          Data = 81 c1 76 58 9e 9e bf cd 74 90 b3 4c bf bf e5 6b
+        Short name for network:
+          Length = 9
+          Data = 81 c1 76 58 9e 9e bf cd 74
+        Local time zone = 64
+        Universal time and local time zone:
+          Data = 62 20 60 90 23 05 40
+        Network daylight saving time:
+          Length = 1
+          Data = 00
+10:32:50.290 [NGAP] TO 0064 0001 127.0.1.1:58603 Downlink NAS transport
+        0000:  00 04 40 48 00 00 03 00  0a 00 02 00 64 00 55 00  ..@H........d.U.
+        0010:  02 00 01 00 26 00 35 34  7e 02 f7 c8 a2 97 02 7e  ....&.54~......~
+        0020:  00 54 43 10 81 c1 76 58  9e 9e bf cd 74 90 b3 4c  .TC...vX....t..L
+        0030:  bf bf e5 6b 45 09 81 c1  76 58 9e 9e bf cd 74 46  ...kE...vX....tF
+        0040:  40 47 62 20 60 90 23 05  40 49 01 00              @Gb `.#.@I..
+        initiatingMessage: {
+          procedureCode id-DownlinkNASTransport,
+          criticality ignore,
+          value {
+            protocolIEs {
+              {
+                id id-AMF-UE-NGAP-ID,
+                criticality reject,
+                value 100
+              },
+              {
+                id id-RAN-UE-NGAP-ID,
+                criticality reject,
+                value 1
+              },
+              {
+                id id-NAS-PDU,
+                criticality reject,
+                value '7E02F7C8A297027E0054431081C176589E9EBFCD7490B34CBFBFE56B450981C176589E9EBFCD7446404762206090230540490100'H
+              }
+            }
+          }
+        }
+
+10:32:50.290 [NGAP] FROM 0064 0001 127.0.1.1:58603 Uplink NAS transport
+        0000:  00 2e 40 65 00 00 04 00  0a 00 02 00 64 00 55 00  ..@e........d.U.
+        0010:  02 00 01 00 26 00 3f 3e  7e 02 74 45 de 2c 02 7e  ....&.?>~.tE.,.~
+        0020:  00 67 01 00 2e 2e 01 01  c1 ff ff 93 b1 7b 00 23  .g...........{.#
+        0030:  80 80 21 10 01 00 00 10  81 06 00 00 00 00 83 06  ..!.............
+        0040:  00 00 00 00 00 03 00 00  0a 00 00 10 00 00 0d 00  ................
+        0050:  00 11 00 12 01 81 00 79  40 0f 40 00 f1 10 00 12  .......y@.@.....
+        0060:  34 50 10 00 f1 10 00 01  f4                       4P.......
+        initiatingMessage: {
+          procedureCode id-UplinkNASTransport,
+          criticality ignore,
+          value {
+            protocolIEs {
+              {
+                id id-AMF-UE-NGAP-ID,
+                criticality reject,
+                value 100
+              },
+              {
+                id id-RAN-UE-NGAP-ID,
+                criticality reject,
+                value 1
+              },
+              {
+                id id-NAS-PDU,
+                criticality reject,
+                value '7E027445DE2C027E006701002E2E0101C1FFFF93B17B00238080211001000010810600000000830600000000000300000A00001000000D00001100120181'H
+              },
+              {
+                id id-UserLocationInformation,
+                criticality ignore,
+                value userLocationInformationNR: {
+                  nR-CGI {
+                    pLMNIdentity '00F110'H,
+                    nRCellIdentity '001234501'H
+                  },
+                  tAI {
+                    pLMNIdentity '00F110'H,
+                    tAC '0001F4'H
+                  }
+                }
+              }
+            }
+          }
+        }
+
+10:32:50.290 [NAS] UL    - Integrity: count=0x00000002 bearer=0x1 len=448
+        Key: 7420aefe7617d857e2682ab23836fa49
+        Message: 027e006701002e2e0101c1ffff93b17b00238080211001000010810600000000830600000000000300000a00001000000d00001100120181
+        T: 7445de2c
+10:32:50.290 [NAS] UL 0064 5GMM: UL NAS transport
+        0000:  7e 02 74 45 de 2c 02 7e  00 67 01 00 2e 2e 01 01  ~.tE.,.~.g......
+        0010:  c1 ff ff 93 b1 7b 00 23  80 80 21 10 01 00 00 10  .....{.#..!.....
+        0020:  81 06 00 00 00 00 83 06  00 00 00 00 00 03 00 00  ................
+        0030:  0a 00 00 10 00 00 0d 00  00 11 00 12 01 81        ..............
+        Protocol discriminator = 0x7e (5GS Mobility Management)
+        Security header = 0x2 (Integrity protected and ciphered)
+        Auth code = 0x7445de2c
+        Sequence number = 0x02
+        Protocol discriminator = 0x7e (5GS Mobility Management)
+        Security header = 0x0 (Plain 5GS NAS message, not security protected)
+        Message type = 0x67 (UL NAS transport)
+        Payload container type = 1 (N1 SM information)
+        Payload container:
+          Protocol discriminator = 0x2e (5GS Session Management)
+          PDU session identity = 1
+          Procedure transaction identity = 1
+          Message type = 0xc1 (PDU session establishment request)
+          Integrity protection maximum data rate:
+            Maximum data rate per UE for user-plane integrity protection for uplink = 0xff (Full data rate)
+            Maximum data rate per UE for user-plane integrity protection for downlink = 0xff (Full data rate)
+          PDU session type = 0x3 (IPv4v6)
+          Always-on PDU session requested = 1
+          Extended protocol configuration options:
+            Ext = 1
+            Configuration protocol = 0
+            Protocol ID = 0x8021 (IPCP)
+            Data = 01 00 00 10 81 06 00 00 00 00 83 06 00 00 00 00
+            Protocol ID = 0x0003 (DNS Server IPv6 Address Request)
+            Data =
+            Protocol ID = 0x000a (IP address allocation via NAS signalling)
+            Data =
+            Protocol ID = 0x0010 (IPv4 Link MTU Request)
+            Data =
+            Protocol ID = 0x000d (DNS Server IPv4 Address Request)
+            Data =
+            Protocol ID = 0x0011 (MS support of Local address in TFT indicator)
+            Data =
+        PDU session ID = 1
+        Request type = 0x1 (initial request)
+10:32:50.290 [NAS] UL 0064 5GSM: PDU session establishment request
+        0000:  2e 01 01 c1 ff ff 93 b1  7b 00 23 80 80 21 10 01  ........{.#..!..
+        0010:  00 00 10 81 06 00 00 00  00 83 06 00 00 00 00 00  ................
+        0020:  03 00 00 0a 00 00 10 00  00 0d 00 00 11 00        ..............
+        Protocol discriminator = 0x2e (5GS Session Management)
+        PDU session identity = 1
+        Procedure transaction identity = 1
+        Message type = 0xc1 (PDU session establishment request)
+        Integrity protection maximum data rate:
+          Maximum data rate per UE for user-plane integrity protection for uplink = 0xff (Full data rate)
+          Maximum data rate per UE for user-plane integrity protection for downlink = 0xff (Full data rate)
+        PDU session type = 0x3 (IPv4v6)
+        Always-on PDU session requested = 1
+        Extended protocol configuration options:
+          Ext = 1
+          Configuration protocol = 0
+          Protocol ID = 0x8021 (IPCP)
+          Data = 01 00 00 10 81 06 00 00 00 00 83 06 00 00 00 00
+          Protocol ID = 0x0003 (DNS Server IPv6 Address Request)
+          Data =
+          Protocol ID = 0x000a (IP address allocation via NAS signalling)
+          Data =
+          Protocol ID = 0x0010 (IPv4 Link MTU Request)
+          Data =
+          Protocol ID = 0x000d (DNS Server IPv4 Address Request)
+          Data =
+          Protocol ID = 0x0011 (MS support of Local address in TFT indicator)
+          Data =
+10:32:50.290 [NAS] DL 0064 5GSM: PDU session establishment accept
+        0000:  2e 01 01 c2 11 00 09 01  00 06 31 30 01 01 ff 01  ..........10....
+        0010:  06 06 13 88 04 7a 12 59  32 29 05 01 c0 a8 02 02  .....z.Y2)......
+        0020:  22 01 01 81 79 00 06 01  20 41 01 01 09 7b 00 18  "...y... A...{..
+        0030:  80 80 21 0a 03 00 00 0a  81 06 08 08 08 08 00 0d  ..!.............
+        0040:  04 08 08 08 08 00 11 00  25 1b 07 64 65 66 61 75  ........%..defau
+        0050:  6c 74 06 6d 6e 63 30 30  31 06 6d 63 63 30 30 31  lt.mnc001.mcc001
+        0060:  04 67 70 72 73                                    .gprs
+        Protocol discriminator = 0x2e (5GS Session Management)
+        PDU session identity = 1
+        Procedure transaction identity = 1
+        Message type = 0xc2 (PDU session establishment accept)
+        Selected PDU session type = 0x1 (IPv4)
+        Selected SSC mode = 0x1 (1)
+        Authorized QoS rules:
+          QoS rule 1:
+            QoS rule identifier = 1
+            Rule operation code = 1 (create new QoS rule)
+            DQR = 1 (the QoS rule is the default QoS rule)
+            Number of packet filters = 1
+            Packet filter identifier = 0
+              Packet filter direction = 3 (bidirectional)
+              Match-all
+            QoS rule precedence = 255
+            QFI = 1
+        Session AMBR:
+          Session-AMBR for downlink = 5000 Mbps
+          Session-AMBR for uplink = 2000000 kbps
+        5GSM cause = 0x32 (PDU session type IPv4 only allowed)
+        PDU address:
+          SI6LLA = 0
+          PDU session type = 1 (IPv4)
+          IPv4 = 192.168.2.2
+        S-NSSAI:
+          Length of S-NSSAI contents = 1 (SST)
+          SST = 0x01
+        Always-on PDU session indication = 1
+        Authorized QoS flow descriptions:
+          QoS flow description 1:
+            QFI = 1
+            Operation code = 1 (create new QoS flow description)
+            E = 1 (parameters list is included)
+            Number of parameters = 1
+            5QI = 9
+        Extended protocol configuration options:
+          Ext = 1
+          Configuration protocol = 0
+          Protocol ID = 0x8021 (IPCP)
+          Data = 03 00 00 0a 81 06 08 08 08 08
+          Protocol ID = 0x000d (DNS Server IPv4 Address)
+          Data = 8.8.8.8
+          Protocol ID = 0x0011 (Network support of Local address in TFT indicator)
+          Data =
+        DNN = "default.mnc001.mcc001.gprs"
+10:32:50.290 [NAS] DL    - Integrity: count=0x00000003 bearer=0x1 len=880
+        Key: 7420aefe7617d857e2682ab23836fa49
+        Message: 037e00680100652e0101c211000901000631300101ff0106061388047a125932290501c0a80202220101817900060120410101097b00188080210a0300000a810608080808000d0408080808001100251b0764656661756c74066d6e63303031066d636330303104677072731201
+        T: 81b24a57
+10:32:50.290 [NAS] DL 0064 5GMM: DL NAS transport
+        0000:  7e 02 81 b2 4a 57 03 7e  00 68 01 00 65 2e 01 01  ~...JW.~.h..e...
+        0010:  c2 11 00 09 01 00 06 31  30 01 01 ff 01 06 06 13  .......10.......
+        0020:  88 04 7a 12 59 32 29 05  01 c0 a8 02 02 22 01 01  ..z.Y2)......"..
+        0030:  81 79 00 06 01 20 41 01  01 09 7b 00 18 80 80 21  .y... A...{....!
+        0040:  0a 03 00 00 0a 81 06 08  08 08 08 00 0d 04 08 08  ................
+        0050:  08 08 00 11 00 25 1b 07  64 65 66 61 75 6c 74 06  .....%..default.
+        0060:  6d 6e 63 30 30 31 06 6d  63 63 30 30 31 04 67 70  mnc001.mcc001.gp
+        0070:  72 73 12 01                                       rs..
+        Protocol discriminator = 0x7e (5GS Mobility Management)
+        Security header = 0x2 (Integrity protected and ciphered)
+        Auth code = 0x81b24a57
+        Sequence number = 0x03
+        Protocol discriminator = 0x7e (5GS Mobility Management)
+        Security header = 0x0 (Plain 5GS NAS message, not security protected)
+        Message type = 0x68 (DL NAS transport)
+        Payload container type = 1 (N1 SM information)
+        Payload container:
+          Protocol discriminator = 0x2e (5GS Session Management)
+          PDU session identity = 1
+          Procedure transaction identity = 1
+          Message type = 0xc2 (PDU session establishment accept)
+          Selected PDU session type = 0x1 (IPv4)
+          Selected SSC mode = 0x1 (1)
+          Authorized QoS rules:
+            QoS rule 1:
+              QoS rule identifier = 1
+              Rule operation code = 1 (create new QoS rule)
+              DQR = 1 (the QoS rule is the default QoS rule)
+              Number of packet filters = 1
+              Packet filter identifier = 0
+                Packet filter direction = 3 (bidirectional)
+                Match-all
+              QoS rule precedence = 255
+              QFI = 1
+          Session AMBR:
+            Session-AMBR for downlink = 5000 Mbps
+            Session-AMBR for uplink = 2000000 kbps
+          5GSM cause = 0x32 (PDU session type IPv4 only allowed)
+          PDU address:
+            SI6LLA = 0
+            PDU session type = 1 (IPv4)
+            IPv4 = 192.168.2.2
+          S-NSSAI:
+            Length of S-NSSAI contents = 1 (SST)
+            SST = 0x01
+          Always-on PDU session indication = 1
+          Authorized QoS flow descriptions:
+            QoS flow description 1:
+              QFI = 1
+              Operation code = 1 (create new QoS flow description)
+              E = 1 (parameters list is included)
+              Number of parameters = 1
+              5QI = 9
+          Extended protocol configuration options:
+            Ext = 1
+            Configuration protocol = 0
+            Protocol ID = 0x8021 (IPCP)
+            Data = 03 00 00 0a 81 06 08 08 08 08
+            Protocol ID = 0x000d (DNS Server IPv4 Address)
+            Data = 8.8.8.8
+            Protocol ID = 0x0011 (Network support of Local address in TFT indicator)
+            Data =
+          DNN = "default.mnc001.mcc001.gprs"
+        PDU session ID = 1
+10:32:50.290 [NGAP] TO 0064 0001 127.0.1.1:58603 PDU session resource setup request
+        0000:  00 1d 00 80 ce 00 00 04  00 0a 00 02 00 64 00 55  .............d.U
+        0010:  00 02 00 01 00 4a 00 80  ab 00 40 01 74 7e 02 81  .....J....@.t~..
+        0020:  b2 4a 57 03 7e 00 68 01  00 65 2e 01 01 c2 11 00  .JW.~.h..e......
+        0030:  09 01 00 06 31 30 01 01  ff 01 06 06 13 88 04 7a  ....10.........z
+        0040:  12 59 32 29 05 01 c0 a8  02 02 22 01 01 81 79 00  .Y2)......"...y.
+        0050:  06 01 20 41 01 01 09 7b  00 18 80 80 21 0a 03 00  .. A...{....!...
+        0060:  00 0a 81 06 08 08 08 08  00 0d 04 08 08 08 08 00  ................
+        0070:  11 00 25 1b 07 64 65 66  61 75 6c 74 06 6d 6e 63  ..%..default.mnc
+        0080:  30 30 31 06 6d 63 63 30  30 31 04 67 70 72 73 12  001.mcc001.gprs.
+        0090:  01 00 20 30 00 00 04 00  82 00 0b 10 01 2a 05 f2  .. 0.........*..
+        00a0:  00 30 77 35 94 00 00 8b  00 0a 01 f0 7f 00 01 64  .0w5...........d
+        00b0:  03 5f 80 5b 00 86 00 01  00 00 88 00 07 00 01 00  ._.[............
+        00c0:  00 09 38 00 00 6e 40 0b  10 01 2a 05 f2 00 30 77  ..8..n@...*...0w
+        00d0:  35 94 00                                          5..
+        initiatingMessage: {
+          procedureCode id-PDUSessionResourceSetup,
+          criticality reject,
+          value {
+            protocolIEs {
+              {
+                id id-AMF-UE-NGAP-ID,
+                criticality reject,
+                value 100
+              },
+              {
+                id id-RAN-UE-NGAP-ID,
+                criticality reject,
+                value 1
+              },
+              {
+                id id-PDUSessionResourceSetupListSUReq,
+                criticality reject,
+                value {
+                  {
+                    pDUSessionID 1,
+                    pDUSessionNAS-PDU '7E0281B24A57037E00680100652E0101C211000901000631300101FF0106061388047A125932290501C0A80202220101817900060120410101097B00188080210A0300000A810608080808000D0408080808001100251B0764656661756C74066D6E63303031066D636330303104677072731201'H,
+                    s-NSSAI {
+                      sST '01'H
+                    },
+                    pDUSessionResourceSetupRequestTransfer {
+                      protocolIEs {
+                        {
+                          id id-PDUSessionAggregateMaximumBitRate,
+                          criticality reject,
+                          value {
+                            pDUSessionAggregateMaximumBitRateDL 5000000000,
+                            pDUSessionAggregateMaximumBitRateUL 2000000000
+                          }
+                        },
+                        {
+                          id id-UL-NGU-UP-TNLInformation,
+                          criticality reject,
+                          value gTPTunnel: {
+                            transportLayerAddress '7F000164'H,
+                            gTP-TEID '035F805B'H
+                          }
+                        },
+                        {
+                          id id-PDUSessionType,
+                          criticality reject,
+                          value ipv4
+                        },
+                        {
+                          id id-QosFlowSetupRequestList,
+                          criticality reject,
+                          value {
+                            {
+                              qosFlowIdentifier 1,
+                              qosFlowLevelQosParameters {
+                                qosCharacteristics nonDynamic5QI: {
+                                  fiveQI 9
+                                },
+                                allocationAndRetentionPriority {
+                                  priorityLevelARP 15,
+                                  pre-emptionCapability shall-not-trigger-pre-emption,
+                                  pre-emptionVulnerability not-pre-emptable
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                id id-UEAggregateMaximumBitRate,
+                criticality ignore,
+                value {
+                  uEAggregateMaximumBitRateDL 5000000000,
+                  uEAggregateMaximumBitRateUL 2000000000
+                }
+              }
+            }
+          }
+        }
+
+10:32:50.290 [IMS] FROM 1 NAS register ack
+10:32:50.310 [NGAP] FROM 0064 0001 127.0.1.1:58603 PDU session resource setup response
+        0000:  20 1d 00 24 00 00 03 00  0a 40 02 00 64 00 55 40   ..$.....@..d.U@
+        0010:  02 00 01 00 4b 40 11 00  00 01 0d 00 03 e0 7f 00  ....K@..........
+        0020:  01 01 3c 38 f8 2e 00 01                           ..<8....
+        successfulOutcome: {
+          procedureCode id-PDUSessionResourceSetup,
+          criticality reject,
+          value {
+            protocolIEs {
+              {
+                id id-AMF-UE-NGAP-ID,
+                criticality ignore,
+                value 100
+              },
+              {
+                id id-RAN-UE-NGAP-ID,
+                criticality ignore,
+                value 1
+              },
+              {
+                id id-PDUSessionResourceSetupListSURes,
+                criticality ignore,
+                value {
+                  {
+                    pDUSessionID 1,
+                    pDUSessionResourceSetupResponseTransfer {
+                      dLQosFlowPerTNLInformation {
+                        uPTransportLayerInformation gTPTunnel: {
+                          transportLayerAddress '7F000101'H,
+                          gTP-TEID '3C38F82E'H
+                        },
+                        associatedQosFlowList {
+                          {
+                            qosFlowIdentifier 1
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+
+10:33:00.291 [NGAP] FROM 0064 0001 127.0.1.1:58603 UE context release request
+        0000:  00 2a 40 1c 00 00 04 00  0a 00 02 00 64 00 55 00  .*@.........d.U.
+        0010:  02 00 01 00 85 00 03 00  00 01 00 0f 40 02 05 00  ............@...
+        initiatingMessage: {
+          procedureCode id-UEContextReleaseRequest,
+          criticality ignore,
+          value {
+            protocolIEs {
+              {
+                id id-AMF-UE-NGAP-ID,
+                criticality reject,
+                value 100
+              },
+              {
+                id id-RAN-UE-NGAP-ID,
+                criticality reject,
+                value 1
+              },
+              {
+                id id-PDUSessionResourceListCxtRelReq,
+                criticality reject,
+                value {
+                  {
+                    pDUSessionID 1
+                  }
+                }
+              },
+              {
+                id id-Cause,
+                criticality ignore,
+                value radioNetwork: user-inactivity
+              }
+            }
+          }
+        }
+
+10:33:00.291 [NGAP] TO 0064 0001 127.0.1.1:58603 UE context release command
+        0000:  00 29 00 11 00 00 02 00  72 00 04 00 64 00 01 00  .)......r...d...
+        0010:  0f 40 02 05 00                                    .@...
+        initiatingMessage: {
+          procedureCode id-UEContextRelease,
+          criticality reject,
+          value {
+            protocolIEs {
+              {
+                id id-UE-NGAP-IDs,
+                criticality reject,
+                value uE-NGAP-ID-pair: {
+                  aMF-UE-NGAP-ID 100,
+                  rAN-UE-NGAP-ID 1
+                }
+              },
+              {
+                id id-Cause,
+                criticality ignore,
+                value radioNetwork: user-inactivity
+              }
+            }
+          }
+        }
+
+10:33:00.291 [NGAP] FROM 0064 0001 127.0.1.1:58603 UE context release complete
+        0000:  20 29 00 29 00 00 04 00  0a 40 02 00 64 00 55 40   ).).....@..d.U@
+        0010:  02 00 01 00 79 40 0f 40  00 f1 10 00 12 34 50 10  ....y@.@.....4P.
+        0020:  00 f1 10 00 01 f4 00 3c  00 03 00 00 01           .......<.....
+        successfulOutcome: {
+          procedureCode id-UEContextRelease,
+          criticality reject,
+          value {
+            protocolIEs {
+              {
+                id id-AMF-UE-NGAP-ID,
+                criticality ignore,
+                value 100
+              },
+              {
+                id id-RAN-UE-NGAP-ID,
+                criticality ignore,
+                value 1
+              },
+              {
+                id id-UserLocationInformation,
+                criticality ignore,
+                value userLocationInformationNR: {
+                  nR-CGI {
+                    pLMNIdentity '00F110'H,
+                    nRCellIdentity '001234501'H
+                  },
+                  tAI {
+                    pLMNIdentity '00F110'H,
+                    tAC '0001F4'H
+                  }
+                }
+              },
+              {
+                id id-PDUSessionResourceListCxtRelCpl,
+                criticality reject,
+                value {
+                  {
+                    pDUSessionID 1
+                  }
+                }
+              }
+            }
+          }
+        }
+
+10:33:21.830 [NGAP] FROM - 0002 127.0.1.1:58603 Initial UE message
+        0000:  00 0f 40 75 00 00 06 00  55 00 02 00 02 00 26 00  ..@u....U.....&.
+        0010:  40 3f 7e 00 41 79 00 35  01 99 f9 07 17 ff 01 1e  @?~.Ay.5........
+        0020:  3c fb f2 3e dd 1d da 4a  52 a3 e8 79 c2 e5 f2 22  <..>...JR..y..."
+        0030:  de 8e 70 d3 9e 29 16 9e  de 56 12 ab 61 93 5d 29  ..p..)...V..a.])
+        0040:  a5 26 69 4b 25 ca 3f f8  6d a7 64 ff 33 2e 02 c1  .&iK%.?.m.d.3...
+        0050:  c1 00 79 00 0f 40 00 f1  10 00 12 34 50 10 00 f1  ..y..@.....4P...
+        0060:  10 00 01 f4 00 5a 40 01  20 00 1a 00 07 00 14 00  .....Z@. .......
+        0070:  29 84 c4 24 00 70 40 01  00                       )..$.p@..
+        initiatingMessage: {
+          procedureCode id-InitialUEMessage,
+          criticality ignore,
+          value {
+            protocolIEs {
+              {
+                id id-RAN-UE-NGAP-ID,
+                criticality reject,
+                value 2
+              },
+              {
+                id id-NAS-PDU,
+                criticality reject,
+                value '7E00417900350199F90717FF011E3CFBF23EDD1DDA4A52A3E879C2E5F222DE8E70D39E29169EDE5612AB61935D29A526694B25CA3FF86DA764FF332E02C1C1'H
+              },
+              {
+                id id-UserLocationInformation,
+                criticality reject,
+                value userLocationInformationNR: {
+                  nR-CGI {
+                    pLMNIdentity '00F110'H,
+                    nRCellIdentity '001234501'H
+                  },
+                  tAI {
+                    pLMNIdentity '00F110'H,
+                    tAC '0001F4'H
+                  }
+                }
+              },
+              {
+                id id-RRCEstablishmentCause,
+                criticality ignore,
+                value mo-Data
+              },
+              {
+                id id-FiveG-S-TMSI,
+                criticality reject,
+                value {
+                  aMFSetID '0000000001'B,
+                  aMFPointer '010000'B,
+                  fiveG-TMSI '2984C424'H
+                }
+              },
+              {
+                id id-UEContextRequest,
+                criticality ignore,
+                value requested
+              }
+            }
+          }
+        }
+
+10:33:21.830 [NAS] UL 0065 5GMM: Registration request
+        0000:  7e 00 41 79 00 35 01 99  f9 07 17 ff 01 1e 3c fb  ~.Ay.5........<.
+        0010:  f2 3e dd 1d da 4a 52 a3  e8 79 c2 e5 f2 22 de 8e  .>...JR..y..."..
+        0020:  70 d3 9e 29 16 9e de 56  12 ab 61 93 5d 29 a5 26  p..)...V..a.]).&
+        0030:  69 4b 25 ca 3f f8 6d a7  64 ff 33 2e 02 c1 c1     iK%.?.m.d.3....
+        Protocol discriminator = 0x7e (5GS Mobility Management)
+        Security header = 0x0 (Plain 5GS NAS message, not security protected)
+        Message type = 0x41 (Registration request)
+        5GS registration type:
+          Follow-on request bit = 1
+          Value = 1 (initial registration)
+        ngKSI:
+          TSC = 0
+          NAS key set identifier = 7
+        5GS mobile identity:
+          SUCI
+            SUPI format = 0 (IMSI)
+            MCC = 999
+            MNC = 70 
+            Routing indicator = 71
+            Protection scheme id = 1 (ECIES scheme profile A)
+            Home network public key identifier = 30
+            ECC ephemeral public key = 0x3cfbf23edd1dda4a52a3e879c2e5f222de8e70d39e29169ede5612ab61935d29
+            Ciphertext = 0xa526694b25
+            MAC tag = 0xca3ff86da764ff33
+        UE security capability:
+          0xc1 (5G-EA0=1, 128-5G-EA1=1, 128-5G-EA2=0, 128-5G-EA3=0, 5G-EA4=0, 5G-EA5=0, 5G-EA6=0, 5G-EA7=1)
+          0xc1 (5G-IA0=1, 128-5G-IA1=1, 128-5G-IA2=0, 128-5G-IA3=0, 5G-IA4=0, 5G-IA5=0, 5G-IA6=0, 5G-IA7=1)
+10:33:21.830 [NAS] -  0065 5GS encryption caps=0xc1 integrity caps=0xc1
+10:33:21.831 [NAS] DL 0065 5GMM: Authentication request
+        0000:  7e 00 56 00 02 00 00 21  d3 75 40 f2 17 0d 0a 7a  ~.V....!.u@....z
+        0010:  c6 c4 ea 79 d7 c6 cc 19  20 10 76 e4 3d 54 5d 39  ...y.... .v.=T]9
+        0020:  90 01 b3 93 40 3e 95 2e  c8 a8                    ....@>....
+        Protocol discriminator = 0x7e (5GS Mobility Management)
+        Security header = 0x0 (Plain 5GS NAS message, not security protected)
+        Message type = 0x56 (Authentication request)
+        ngKSI:
+          TSC = 0
+          NAS key set identifier = 0
+        ABBA:
+          Length = 2
+          Data = 00 00
+        Authentication parameter RAND:
+          Data = d3 75 40 f2 17 0d 0a 7a c6 c4 ea 79 d7 c6 cc 19
+        Authentication parameter AUTN:
+          Length = 16
+          Data = 76 e4 3d 54 5d 39 90 01 b3 93 40 3e 95 2e c8 a8
+10:33:21.831 [NGAP] TO 0065 0002 127.0.1.1:58603 Downlink NAS transport
+        0000:  00 04 40 3e 00 00 03 00  0a 00 02 00 65 00 55 00  ..@>........e.U.
+        0010:  02 00 02 00 26 00 2b 2a  7e 00 56 00 02 00 00 21  ....&.+*~.V....!
+        0020:  d3 75 40 f2 17 0d 0a 7a  c6 c4 ea 79 d7 c6 cc 19  .u@....z...y....
+        0030:  20 10 76 e4 3d 54 5d 39  90 01 b3 93 40 3e 95 2e   .v.=T]9....@>..
+        0040:  c8 a8                                             ..
+        initiatingMessage: {
+          procedureCode id-DownlinkNASTransport,
+          criticality ignore,
+          value {
+            protocolIEs {
+              {
+                id id-AMF-UE-NGAP-ID,
+                criticality reject,
+                value 101
+              },
+              {
+                id id-RAN-UE-NGAP-ID,
+                criticality reject,
+                value 2
+              },
+              {
+                id id-NAS-PDU,
+                criticality reject,
+                value '7E00560002000021D37540F2170D0A7AC6C4EA79D7C6CC19201076E43D545D399001B393403E952EC8A8'H
+              }
+            }
+          }
+        }
+
+10:33:21.850 [NGAP] FROM 0065 0002 127.0.1.1:58603 Uplink NAS transport
+        0000:  00 2e 40 2b 00 00 04 00  0a 00 02 00 65 00 55 00  ..@+........e.U.
+        0010:  02 00 02 00 26 00 05 04  7e 00 59 47 00 79 40 0f  ....&...~.YG.y@.
+        0020:  40 00 f1 10 00 12 34 50  10 00 f1 10 00 01 f4     @.....4P.......
+        initiatingMessage: {
+          procedureCode id-UplinkNASTransport,
+          criticality ignore,
+          value {
+            protocolIEs {
+              {
+                id id-AMF-UE-NGAP-ID,
+                criticality reject,
+                value 101
+              },
+              {
+                id id-RAN-UE-NGAP-ID,
+                criticality reject,
+                value 2
+              },
+              {
+                id id-NAS-PDU,
+                criticality reject,
+                value '7E005947'H
+              },
+              {
+                id id-UserLocationInformation,
+                criticality ignore,
+                value userLocationInformationNR: {
+                  nR-CGI {
+                    pLMNIdentity '00F110'H,
+                    nRCellIdentity '001234501'H
+                  },
+                  tAI {
+                    pLMNIdentity '00F110'H,
+                    tAC '0001F4'H
+                  }
+                }
+              }
+            }
+          }
+        }
+
+10:33:21.850 [NAS] UL 0065 5GMM: Authentication failure
+        0000:  7e 00 59 47                                       ~.YG
+        Protocol discriminator = 0x7e (5GS Mobility Management)
+        Security header = 0x0 (Plain 5GS NAS message, not security protected)
+        Message type = 0x59 (Authentication failure)
+        5GMM cause = 0x47 (ngKSI already in use)
+10:33:21.850 [NAS] DL 0065 5GMM: Authentication request
+        0000:  7e 00 56 01 02 00 00 21  d3 75 40 f2 17 0d 0a 7a  ~.V....!.u@....z
+        0010:  c6 c4 ea 79 d7 c6 cc 19  20 10 76 e4 3d 54 5d 39  ...y.... .v.=T]9
+        0020:  90 01 b3 93 40 3e 95 2e  c8 a8                    ....@>....
+        Protocol discriminator = 0x7e (5GS Mobility Management)
+        Security header = 0x0 (Plain 5GS NAS message, not security protected)
+        Message type = 0x56 (Authentication request)
+        ngKSI:
+          TSC = 0
+          NAS key set identifier = 1
+        ABBA:
+          Length = 2
+          Data = 00 00
+        Authentication parameter RAND:
+          Data = d3 75 40 f2 17 0d 0a 7a c6 c4 ea 79 d7 c6 cc 19
+        Authentication parameter AUTN:
+          Length = 16
+          Data = 76 e4 3d 54 5d 39 90 01 b3 93 40 3e 95 2e c8 a8
+10:33:21.850 [NGAP] TO 0065 0002 127.0.1.1:58603 Downlink NAS transport
+        0000:  00 04 40 3e 00 00 03 00  0a 00 02 00 65 00 55 00  ..@>........e.U.
+        0010:  02 00 02 00 26 00 2b 2a  7e 00 56 01 02 00 00 21  ....&.+*~.V....!
+        0020:  d3 75 40 f2 17 0d 0a 7a  c6 c4 ea 79 d7 c6 cc 19  .u@....z...y....
+        0030:  20 10 76 e4 3d 54 5d 39  90 01 b3 93 40 3e 95 2e   .v.=T]9....@>..
+        0040:  c8 a8                                             ..
+        initiatingMessage: {
+          procedureCode id-DownlinkNASTransport,
+          criticality ignore,
+          value {
+            protocolIEs {
+              {
+                id id-AMF-UE-NGAP-ID,
+                criticality reject,
+                value 101
+              },
+              {
+                id id-RAN-UE-NGAP-ID,
+                criticality reject,
+                value 2
+              },
+              {
+                id id-NAS-PDU,
+                criticality reject,
+                value '7E00560102000021D37540F2170D0A7AC6C4EA79D7C6CC19201076E43D545D399001B393403E952EC8A8'H
+              }
+            }
+          }
+        }
+
+10:33:21.870 [NGAP] FROM 0065 0002 127.0.1.1:58603 Uplink NAS transport
+        0000:  00 2e 40 2b 00 00 04 00  0a 00 02 00 65 00 55 00  ..@+........e.U.
+        0010:  02 00 02 00 26 00 05 04  7e 00 59 14 00 79 40 0f  ....&...~.Y..y@.
+        0020:  40 00 f1 10 00 12 34 50  10 00 f1 10 00 01 f4     @.....4P.......
+        initiatingMessage: {
+          procedureCode id-UplinkNASTransport,
+          criticality ignore,
+          value {
+            protocolIEs {
+              {
+                id id-AMF-UE-NGAP-ID,
+                criticality reject,
+                value 101
+              },
+              {
+                id id-RAN-UE-NGAP-ID,
+                criticality reject,
+                value 2
+              },
+              {
+                id id-NAS-PDU,
+                criticality reject,
+                value '7E005914'H
+              },
+              {
+                id id-UserLocationInformation,
+                criticality ignore,
+                value userLocationInformationNR: {
+                  nR-CGI {
+                    pLMNIdentity '00F110'H,
+                    nRCellIdentity '001234501'H
+                  },
+                  tAI {
+                    pLMNIdentity '00F110'H,
+                    tAC '0001F4'H
+                  }
+                }
+              }
+            }
+          }
+        }
+
+10:33:21.870 [NAS] UL 0065 5GMM: Authentication failure
+        0000:  7e 00 59 14                                       ~.Y.
+        Protocol discriminator = 0x7e (5GS Mobility Management)
+        Security header = 0x0 (Plain 5GS NAS message, not security protected)
+        Message type = 0x59 (Authentication failure)
+        5GMM cause = 0x14 (MAC failure)
+10:33:21.870 [NAS] DL 0065 5GMM: Authentication reject
+        0000:  7e 00 58                                          ~.X
+        Protocol discriminator = 0x7e (5GS Mobility Management)
+        Security header = 0x0 (Plain 5GS NAS message, not security protected)
+        Message type = 0x58 (Authentication reject)
+10:33:21.870 [NGAP] TO 0065 0002 127.0.1.1:58603 Downlink NAS transport
+        0000:  00 04 40 17 00 00 03 00  0a 00 02 00 65 00 55 00  ..@.........e.U.
+        0010:  02 00 02 00 26 00 04 03  7e 00 58                 ....&...~.X
+        initiatingMessage: {
+          procedureCode id-DownlinkNASTransport,
+          criticality ignore,
+          value {
+            protocolIEs {
+              {
+                id id-AMF-UE-NGAP-ID,
+                criticality reject,
+                value 101
+              },
+              {
+                id id-RAN-UE-NGAP-ID,
+                criticality reject,
+                value 2
+              },
+              {
+                id id-NAS-PDU,
+                criticality reject,
+                value '7E0058'H
+              }
+            }
+          }
+        }
+
+10:33:31.871 [NGAP] FROM 0065 0002 127.0.1.1:58603 UE context release request
+        0000:  00 2a 40 15 00 00 03 00  0a 00 02 00 65 00 55 00  .*@.........e.U.
+        0010:  02 00 02 00 0f 40 02 05  00                       .....@...
+        initiatingMessage: {
+          procedureCode id-UEContextReleaseRequest,
+          criticality ignore,
+          value {
+            protocolIEs {
+              {
+                id id-AMF-UE-NGAP-ID,
+                criticality reject,
+                value 101
+              },
+              {
+                id id-RAN-UE-NGAP-ID,
+                criticality reject,
+                value 2
+              },
+              {
+                id id-Cause,
+                criticality ignore,
+                value radioNetwork: user-inactivity
+              }
+            }
+          }
+        }
+
+10:33:31.871 [NGAP] TO 0065 0002 127.0.1.1:58603 UE context release command
+        0000:  00 29 00 11 00 00 02 00  72 00 04 00 65 00 02 00  .)......r...e...
+        0010:  0f 40 02 05 00                                    .@...
+        initiatingMessage: {
+          procedureCode id-UEContextRelease,
+          criticality reject,
+          value {
+            protocolIEs {
+              {
+                id id-UE-NGAP-IDs,
+                criticality reject,
+                value uE-NGAP-ID-pair: {
+                  aMF-UE-NGAP-ID 101,
+                  rAN-UE-NGAP-ID 2
+                }
+              },
+              {
+                id id-Cause,
+                criticality ignore,
+                value radioNetwork: user-inactivity
+              }
+            }
+          }
+        }
+
+10:33:31.871 [NGAP] FROM 0065 0002 127.0.1.1:58603 UE context release complete
+        0000:  20 29 00 22 00 00 03 00  0a 40 02 00 65 00 55 40   ).".....@..e.U@
+        0010:  02 00 02 00 79 40 0f 40  00 f1 10 00 12 34 50 10  ....y@.@.....4P.
+        0020:  00 f1 10 00 01 f4                                 ......
+        successfulOutcome: {
+          procedureCode id-UEContextRelease,
+          criticality reject,
+          value {
+            protocolIEs {
+              {
+                id id-AMF-UE-NGAP-ID,
+                criticality ignore,
+                value 101
+              },
+              {
+                id id-RAN-UE-NGAP-ID,
+                criticality ignore,
+                value 2
+              },
+              {
+                id id-UserLocationInformation,
+                criticality ignore,
+                value userLocationInformationNR: {
+                  nR-CGI {
+                    pLMNIdentity '00F110'H,
+                    nRCellIdentity '001234501'H
+                  },
+                  tAI {
+                    pLMNIdentity '00F110'H,
+                    tAC '0001F4'H
+                  }
+                }
+              }
+            }
+          }
+        }
+
